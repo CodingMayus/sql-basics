@@ -1,0 +1,1 @@
+-- parameter validation is related to inserting and deleting data with PROCEDURES 

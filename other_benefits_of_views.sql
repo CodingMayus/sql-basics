@@ -1,0 +1,11 @@
+-- Views can:
+-- simplify queries
+-- reduce the impact of changes in your database design
+        --  if you want to move a column from one table to another,
+        -- or change the name of a column, it'll typically require changing all entries in the data.
+        -- OR we can just modify/create a view, to change the column names, and join and remove columns from multiple tables 
+        -- Thus, Views give an abstraction to our views ( think about it ), and through this abstraction we can reduce the impact of changes 
+-- restrict access to underlying table 
+        -- By restricting access to underlying table, other people can only modify data through the views, unable to modify views in certain columns, or modify rows not returned
+        -- by your view 
+        -- CON: is that this REQUIRES planning
